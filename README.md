@@ -9,6 +9,4 @@ See https://github.com/tomtor/u-boot-pine64/tree/freebsd
 and https://github.com/longsleep/build-pine64-image/tree/master/u-boot-postprocess
 for build instructions.
 
-build/
-
-contains a ready to use version
+https://github.com/tomtor/image-freebsd-pine64/raw/master/build/u-boot-with-dtb.bin is a ready to use version.
