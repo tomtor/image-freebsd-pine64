@@ -15,5 +15,5 @@ https://github.com/tomtor/image-freebsd-pine64/raw/master/build/u-boot-with-dtb.
 
 Step 2:
 
-Run the mkimage.sh script as root
+Run the mkimage.sh script, but check the settings in this script first!
 
