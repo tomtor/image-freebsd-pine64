@@ -1,5 +1,7 @@
 # image-freebsd-pine64
 
+Step 1: (This step is currently optional)
+
 First step in creating a FreeBSD image for the Pine64 is building a u-boot with 
 the CONFIG_API option enabled.
 
@@ -10,3 +12,8 @@ and https://github.com/longsleep/build-pine64-image/tree/master/u-boot-postproce
 for build instructions.
 
 https://github.com/tomtor/image-freebsd-pine64/raw/master/build/u-boot-with-dtb.bin is a ready to use version.
+
+Step 2:
+
+Run the mkimage.sh script as root
+
