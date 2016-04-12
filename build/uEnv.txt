@@ -1,0 +1,5 @@
+bootscript=run load_kernel boot_kernel
+kernel_load_addr=0x41080000
+kernel_go_addr=0x41081000
+load_kernel=fatload mmc 0:2 kernel ${kernel_load_addr}
+boot_kernel=go ${kernel_go_addr}
