@@ -12,11 +12,12 @@ export MAKEOBJDIRPREFIX=${HOME}/obj
 
 # Where to install to
 DEST=${MAKEOBJDIRPREFIX}/pine64
-DEST2=/media/swan/tom
+DEST2=${DEST}
 
 set -e
 
-cd /usr/src
+# Your github clone of the freebsd source:
+cd $HOME/src/freebsd
 
 make TARGET=arm64 -s ${JFLAG} buildworld NO_CLEAN=YES
 make TARGET=arm64 -s ${JFLAG} buildkernel NO_CLEAN=YES KERNCONF=PINE64
