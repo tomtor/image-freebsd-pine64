@@ -1,3 +1,7 @@
+# Note: this repository is obsolete
+
+See: http://www.raspbsd.org/pine64.html
+
 # image-freebsd-pine64
 
 Step 1: (This step is currently optional)
